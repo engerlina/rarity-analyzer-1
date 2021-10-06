@@ -18,7 +18,7 @@ const Header = () => {
 							)}
 							{!process.env.NEXT_PUBLIC_COLLECTION_LOGO && (
 								<span className="sm:inline-block hidden text-lg font-semibold dark:text-gray-200">
-									{process.env.NEXT_PUBLIC_SITENAME || "site name"}
+									{process.env.NEXT_PUBLIC_SITENAME || "Diamonds NFTs"}
 								</span>
 							)}
 						</a>
